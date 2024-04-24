@@ -1,2 +1,4 @@
 To run migration-sequelize db:migrate
 To Run the seeders-sequelize db:seed:all
+To start the server- npm start
+To run test case -nm test
