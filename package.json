@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "book rest api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon node server.js",
+    "test": "mocha"
+  },
+  "author": "ohm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.5",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.4.0",
+    "supertest": "^6.3.4"
+  }
+}
